@@ -93,11 +93,7 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="https://alishokoohi.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Nav.Link href="https://alishokoohi.vercel.app/" rel="noreferrer">
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>

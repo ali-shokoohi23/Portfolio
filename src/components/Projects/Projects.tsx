@@ -1,5 +1,7 @@
-import { Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
+import reactivities from "../../Assets/Reactivities.png"
+import ProjectCard from "./ProjectCards";
 
 function Projects() {
   return (
@@ -13,18 +15,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={reactivities}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Reactivities"
+              description="An interface for creating activities build with React.js, .NET Core and Sqlite. Have features which allows user for realtime messaging, creating activities and a lot of features."
+              ghLink="https://github.com/ali-shokoohi23/Reactivities"
+              // demoLink="https://chatify-49.web.app/"
+              demoLink=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}

@@ -1,11 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Parallax } from "react-scroll-parallax";
 
 function Home2() {
   return (
@@ -30,21 +28,20 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Artificial Intelligence.
-                </b>
+                <b className="purple">Artificial Intelligence.</b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">.NET Core, React.js and Python </b>
-
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+            <Parallax translateY={[-10, 10]}>
+              <Tilt>
+                <img src={myImg} className="img-fluid" alt="avatar" />
+              </Tilt>
+            </Parallax>
           </Col>
         </Row>
         <Row>

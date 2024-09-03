@@ -253,6 +253,13 @@ button:focus {
 .home-header {
   padding-top: 80px !important;
 }
+.spinner {
+  width: 140px;
+  height: 140px;
+  background-color: cornflowerblue;
+  margin: auto;
+  margin-top: 55%;
+}
 
 .home-section {
   position: relative;

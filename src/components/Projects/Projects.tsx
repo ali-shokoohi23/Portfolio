@@ -3,6 +3,7 @@ import Particle from "../Particle";
 import reactivities from "../../Assets/Reactivities.png"
 import ProjectCard from "./ProjectCards";
 
+
 function Projects() {
   return (
     <Container fluid className="project-section">

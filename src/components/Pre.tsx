@@ -1,5 +1,8 @@
-function Pre(props: { load: any; }) {
-  return <div id={props.load ? "preloader" : "preloader-none"}></div>;
+interface Props{
+  load: boolean
+}
+function Pre({load}: Props) {
+  return <div id={load ? "preloader" : "preloader-none"}></div>;
 }
 
 export default Pre;

@@ -10,6 +10,7 @@ import {
   SiCsharp,
   SiDotnet,
   SiSqlite,
+  SiTypescript,
 } from "react-icons/si";
 
 function Techstack() {
@@ -26,6 +27,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
